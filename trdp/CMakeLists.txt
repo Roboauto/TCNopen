@@ -109,3 +109,5 @@ add_library(trdp STATIC ${VOS_C_FILES} ${TRDP_C_FILES} ${TRDP_OPT_C_FILES})
 target_include_directories(trdp PUBLIC ${INCLUDE_PATHS_FULL})
 
 install(TARGETS trdp DESTINATION lib)
+install(DIRECTORY src/api/ DESTINATION include FILES_MATCHING PATTERN "*.h")
+install(DIRECTORY src/vos/api/ DESTINATION include FILES_MATCHING PATTERN "*.h")
