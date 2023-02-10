@@ -1,0 +1,6 @@
+
+--- Module:   ..\..\src\vos\common\vos_utils.c (C)
+..\..\src\vos\common\vos_utils.c(35) : error 322: unable to open include file 
+    'string.h'
+#include <string.h>
+         ^~~~~~~~~~

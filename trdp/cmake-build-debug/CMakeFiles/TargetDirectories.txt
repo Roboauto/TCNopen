@@ -1,0 +1,3 @@
+D:/repos/tcnopen-trdp/trdp/cmake-build-debug/CMakeFiles/trdp.dir
+D:/repos/tcnopen-trdp/trdp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/repos/tcnopen-trdp/trdp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
