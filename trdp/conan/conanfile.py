@@ -33,4 +33,8 @@ class TcnopenConan(ConanFile):
     def package_info(self):
         self.cpp_info.libs = ["trdp"]
         self.cpp_info.includedirs = ["include"]
+        if (self.settings.os == "Linux"):
+            self.cpp_info.defines = ["POSIX=1"]
+        # Not sure how to detect VXWORKS. Windows is detected automatically.
+
 
