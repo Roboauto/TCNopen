@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 project(TRDP C)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON) # -fPIC
 
 if (MSVC)
   #set(TARGET_OS "windows") # Some weird detection in the source
